@@ -1,0 +1,72 @@
+:root {
+	--bg-color: #141923;
+	--bg-color2: #10151c;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+	background-color: var(--bg-color);
+}
+img { width: 100%; border-radius: 10px; box-shadow: var(--bg-color2) 10px 10px 10px; }
+p { font-size: 16px; line-height: 28px;}
+
+nav.navigation, header, div.page, footer { width: 100%; }
+nav.navigation { padding-top: 50px; }
+
+div.wrapper { width: 70%; padding: 0 15%; }
+
+div.navbar {
+	border: 1px solid white;
+}
+div.navbar ul { list-style-type: none; display: flex;}
+div.navbar ul a { text-decoration: none; }
+div.navbar ul li{ padding: 20px 30px; color: white; }
+
+div.intro {
+	padding: 5% 0;
+	display: flex;
+	justify-content: space-between;
+}
+div.intro div.image { width: 30%; }
+div.intro div.text {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.intro h1 {
+	font-size: 82px;
+	margin-bottom: 20px;
+}
+
+div.box { border: 1px solid white; }
+div.container { margin-bottom: 5%;}
+
+div.section {
+	width: 100%;
+	display: flex;
+}
+div.section div.left {
+	width: 22%;
+	padding: 4%;
+	border-right: 1px solid white;
+}
+div.section div.right {
+	width: 62%;
+	padding: 4%;
+}
+
+footer{ margin-bottom: 5%; }
+
+div.bottom {
+	border: 1px solid white;
+	padding: 4%;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+}

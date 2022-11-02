@@ -1,0 +1,8 @@
+ul#links { list-style-type: none; }
+ul#links a { text-decoration: none; }
+ul#links li { margin-bottom: 7px; }
+ul#links li:first-of-type { margin-bottom: 10px; }
+ul#links li:hover { text-decoration: underline; }
+ul#links li i { width: 30px	; }
+
+div#about-me img { width: 70%; }
