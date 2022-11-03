@@ -46,27 +46,34 @@ div.intro h1 {
 }
 
 div.box { border: 1px solid white; }
-div.container { margin-bottom: 5%;}
+div.container div.title i { margin-right: 20px; }
 
 div.section {
 	width: 100%;
 	display: flex;
+	border-bottom: 1px solid white;
 }
-div.section div.left {
-	width: 22%;
-	padding: 4%;
-	border-right: 1px solid white;
-}
-div.section div.right {
-	width: 62%;
-	padding: 4%;
-}
+div.section:last-of-type { border-bottom: none; }
+div.section > div { padding: 4%; }
+div.section h2 { margin-bottom: 2%; }
 
 footer{ margin-bottom: 5%; }
 
 div.bottom {
 	border: 1px solid white;
+	border-top: none;
 	padding: 4%;
 	text-align: center;
 	border-radius: 0 0 10px 10px;
 }
+
+div.presents {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+div.presents > div img { margin-bottom: 2%; }
+div.presents > div span { text-decoration: underline;}
+div.presents > div p { margin-top: 2%; line-height: 22px;}
+div.presents a { text-decoration: none; }
+div.presents a:hover { text-decoration: underline; }

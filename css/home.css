@@ -1,3 +1,6 @@
+div.section#about div.left { width: 22%; border-right: 1px solid white; }
+div.section#about div.right { width: 62%; }
+
 ul#links { list-style-type: none; }
 ul#links a { text-decoration: none; }
 ul#links li { margin-bottom: 7px; }
@@ -6,3 +9,5 @@ ul#links li:hover { text-decoration: underline; }
 ul#links li i { width: 30px	; }
 
 div#about-me img { width: 70%; }
+
+div.presents#research div { width: 31%; }
