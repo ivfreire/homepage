@@ -1,3 +1,25 @@
+
+div.intro {
+	padding: 5% 0;
+	display: flex;
+	justify-content: space-between;
+}
+div.intro div.image { width: 30%; }
+div.intro div.text {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+div.intro h1 {
+	font-size: 82px;
+	margin-bottom: 20px;
+}
+
+div.middle { width: 100%; }
+
+div.section h2 { text-align: center; }
+
 div.section#about div.left { width: 22%; border-right: 1px solid white; }
 div.section#about div.right { width: 62%; }
 
@@ -10,4 +32,16 @@ ul#links li i { width: 30px	; }
 
 div#about-me img { width: 70%; }
 
+div.presents#research { justify-content: space-evenly; }
 div.presents#research div { width: 31%; }
+
+div.presents#recent { justify-content: space-evenly; }
+div.presents#recent div { width: 20%; text-align: center; }
+div.presents#recent div img { width: 65%; padding: 15%; box-shadow: none; }
+
+@media screen and (max-width: 480px) {
+	div.intro { flex-direction: column; align-items: center; width: 60%; padding: 20%; }
+	div.intro div.image { width: 100%; margin-bottom: 10%; }
+	div.intro div.text { width: 100%; text-align: center; }
+	div.intro div.text h1 { font-size: 32px; }
+}

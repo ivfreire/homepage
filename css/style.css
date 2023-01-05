@@ -28,23 +28,6 @@ div.navbar ul { list-style-type: none; display: flex;}
 div.navbar ul a { text-decoration: none; }
 div.navbar ul li{ padding: 20px 30px; color: white; }
 
-div.intro {
-	padding: 5% 0;
-	display: flex;
-	justify-content: space-between;
-}
-div.intro div.image { width: 30%; }
-div.intro div.text {
-	width: 60%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-div.intro h1 {
-	font-size: 82px;
-	margin-bottom: 20px;
-}
-
 div.box { border: 1px solid white; }
 div.container div.title i { margin-right: 20px; }
 
@@ -77,3 +60,9 @@ div.presents > div span { text-decoration: underline;}
 div.presents > div p { margin-top: 2%; line-height: 22px;}
 div.presents a { text-decoration: none; }
 div.presents a:hover { text-decoration: underline; }
+
+@media screen and (max-width: 480px) {
+	nav.navigation { padding-top: 0; }
+	div.wrapper { width: 100%; padding: 0 0; }
+
+}
