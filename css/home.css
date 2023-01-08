@@ -5,6 +5,7 @@ div.intro {
 	justify-content: space-between;
 }
 div.intro div.image { width: 30%; }
+div.intro div.image img {border: 1px solid white;}
 div.intro div.text {
 	width: 60%;
 	display: flex;
@@ -32,12 +33,15 @@ ul#links li i { width: 30px	; }
 
 div#about-me img { width: 70%; }
 
-div.presents#research { justify-content: space-evenly; }
-div.presents#research div { width: 31%; }
 
-div.presents#recent { justify-content: space-evenly; }
-div.presents#recent div { width: 20%; text-align: center; }
-div.presents#recent div img { width: 65%; padding: 15%; box-shadow: none; }
+div.presents#recently > div { width: 28%; }
+div.presents#recently > div div.image { height: 0; padding-bottom: 56.25%; }
+
+div.presents#highlights > div { width: 20%; text-align: center; }
+div.presents#highlights > div img { width: 65%; padding: 15%; box-shadow: none; }
+
+div.presents#research > div { width: 31%; }
+div.presents#research > div div.image { height: 0; padding-bottom: 56.25%; }
 
 @media screen and (max-width: 480px) {
 	div.intro { flex-direction: column; align-items: center; width: 60%; padding: 20%; }

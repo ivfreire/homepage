@@ -1,6 +1,6 @@
 :root {
 	--bg-color: #141923;
-	--bg-color2: #10151c;
+	--bg-color2: #0b1116;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: var(--bg-color);
+	background-color: var(--bg-color2);
 }
 img { width: 100%; border-radius: 10px; box-shadow: var(--bg-color2) 10px 10px 10px; }
 p { font-size: 16px; line-height: 28px;}
@@ -23,40 +23,59 @@ div.wrapper { width: 70%; padding: 0 15%; }
 
 div.navbar {
 	border: 1px solid white;
+	border-radius: 10px;
+	background-color: var(--bg-color);
 }
 div.navbar ul { list-style-type: none; display: flex;}
 div.navbar ul a { text-decoration: none; }
-div.navbar ul li{ padding: 20px 30px; color: white; }
+div.navbar ul li { padding: 20px 30px; color: white; }
+div.navbar ul li:hover { text-decoration: underline; }
 
-div.box { border: 1px solid white; }
+div.box {
+	background-color: var(--bg-color);
+	border: 1px solid white;
+	border-radius: 10px;
+}
+div.container { margin: 0 0 5% 0; }
+div.container:last-of-type { margin-bottom: 0; }
 div.container div.title i { margin-right: 20px; }
 
 div.section {
 	width: 100%;
 	display: flex;
-	border-bottom: 1px solid white;
 }
-div.section:last-of-type { border-bottom: none; }
-div.section > div { padding: 4%; }
 div.section h2 { margin-bottom: 2%; }
+div.container div.section { border-bottom: 1px dashed white; padding: 5% 0 5% 0; }
+div.container div.section:first-of-type { padding-top: 0; }
+div.container div.section:last-of-type { padding-bottom: 0; border-bottom: none; }
+div.box div.section { border-bottom: 1px solid white; }
+div.box div.section:last-of-type { border-bottom: none; padding-bottom: 0;}
+div.box div.section > div { padding: 4%; }
 
-footer{ margin-bottom: 5%; }
+footer{ margin: 5% 0 5% 0; }
 
 div.bottom {
 	border: 1px solid white;
-	border-top: none;
 	padding: 4%;
 	text-align: center;
-	border-radius: 0 0 10px 10px;
+	border-radius: 10px;
+	background-color: var(--bg-color);
 }
 
 div.presents {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
-div.presents > div img { margin-bottom: 2%; }
-div.presents > div span { text-decoration: underline;}
+div.presents > div div.image {
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 2%;
+}
+div.presents > div div.image img { transition: all 0.2s; }
+div.presents > div:hover div.image img { transform: scale(1.1); }
+div.presents > div span { text-decoration: none;}
 div.presents > div p { margin-top: 2%; line-height: 22px;}
 div.presents a { text-decoration: none; }
 div.presents a:hover { text-decoration: underline; }
