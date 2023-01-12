@@ -1,0 +1,23 @@
+header { padding: 5% 0 5% 0; }
+header > div { text-align: center; }
+header span {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+div.section#main { justify-content: center; }
+div.section#main div.left { width: 0%; }
+div.section#main div.right { width: 50%;  }
+
+div.section#main a { text-decoration: none; }
+div.section#main a:hover h3 { text-decoration: underline; }
+
+main article {
+	padding: 5% 0 5% 0;
+	border-bottom: 1px dashed white;
+}
+main article:first-of-type { padding-top: 0; }
+main article:last-of-type { padding-bottom: 0; border-bottom: none; }
+main article h3 { font-size: 24px; padding-bottom: 1%; text-transform: uppercase; }
+main article p { font-size: 16px; margin-bottom: 24px; }
+main article img { width: 100%; }
