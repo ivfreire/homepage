@@ -65,7 +65,7 @@ div.bottom {
 div.presents {
 	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 div.presents > div div.image {
 	width: 100%;
