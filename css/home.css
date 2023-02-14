@@ -35,6 +35,7 @@ div#about-me img { width: 70%; }
 
 
 div.presents#recently > div { width: 32%; }
+div.presents#recently > div p { text-align: left; }
 div.presents#recently > div div.image { height: 0; padding-bottom: 56.25%; }
 
 div.presents#research > div { width: 49%; }
@@ -46,6 +47,31 @@ div.section#hacking div.middle {
 }
 div.section#hacking div.middle div.left { width: 47.5%; }
 div.section#hacking div.middle div.right { width: 47.5%; }
+
+div.presents#writeups {
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+div.presents#writeups div {
+	width: 18%;
+	padding: 5%;
+	background: var(--bg-color2);
+	border-radius: 10px;
+	border: 1px solid var(--bg-color2);
+	transition: all 0.2s;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+div.presents#writeups div:hover {
+	border: 1px solid white;
+}
+div.presents#writeups div img {
+	width: 100%;
+}
+
+div#hack-cred img { width: 250px; }
 
 @media screen and (max-width: 480px) {
 	div.intro { flex-direction: column; align-items: center; width: 60%; padding: 20%; }

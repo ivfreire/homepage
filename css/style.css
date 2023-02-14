@@ -1,6 +1,7 @@
 :root {
 	--bg-color: #141923;
 	--bg-color2: #0b1116;
+	--bg-color3: #050a0e;
 }
 
 * {
@@ -14,7 +15,11 @@ body {
 	background-color: var(--bg-color2);
 }
 img { width: 100%; border-radius: 10px; box-shadow: var(--bg-color2) 10px 10px 10px; }
-p { font-size: 16px; line-height: 28px;}
+p {
+	font-size: 16px;
+	line-height: 28px;
+	text-align: justify;
+}
 
 nav.navigation, header, div.page, footer { width: 100%; }
 nav.navigation { padding-top: 50px; }
@@ -57,10 +62,10 @@ footer{ margin: 5% 0 5% 0; }
 div.bottom {
 	border: 1px solid white;
 	padding: 4%;
-	text-align: center;
 	border-radius: 10px;
 	background-color: var(--bg-color);
 }
+div.bottom p { text-align: center;}
 
 div.presents {
 	width: 100%;

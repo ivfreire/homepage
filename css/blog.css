@@ -9,7 +9,6 @@ div.section#main { justify-content: center; }
 div.section#main div.left { width: 0%; }
 div.section#main div.right { width: 50%;  }
 
-div.section#main a { text-decoration: none; }
 div.section#main a:hover h3 { text-decoration: underline; }
 
 main article {

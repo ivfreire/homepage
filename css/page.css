@@ -3,8 +3,6 @@ div.section#main div.right { width: 50%;  }
 div.section#info { display: flex; justify-content: center; }
 div.section#info div.right { width: 50%; }
 
-h1 { text-transform: uppercase; }
-
 div.img {
 	display: flex;
 	flex-direction: column;
@@ -32,4 +30,5 @@ div.code span {
 	line-height: 24px;
 	letter-spacing: 1px;
 	font-family: consolas;
+
 }
