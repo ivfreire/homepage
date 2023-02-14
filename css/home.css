@@ -35,7 +35,6 @@ div#about-me img { width: 70%; }
 
 
 div.presents#recently > div { width: 32%; }
-div.presents#recently > div p { text-align: left; }
 div.presents#recently > div div.image { height: 0; padding-bottom: 56.25%; }
 
 div.presents#research > div { width: 49%; }
