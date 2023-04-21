@@ -17,12 +17,56 @@ div.page {
 	align-items: center;
 }
 
-div.profile { text-align: center; }
-div.profile img {
-	width: 400px;
-	border-radius: 100%;
+div.box {
+	padding: 5%;
+	background-color: #223344;
+	border-radius: 20px;
 }
-div.profile h1 {
-	font-size: 48px;
-	margin: 8px 0;
+
+div.profile {
+	text-align: center;
+	border-bottom: 1px dashed white;
+	padding-bottom: 5%;
+}
+div.profile h1 { padding: 10px 0; }
+div.profile img {
+	width: 150px;
+	border-radius: 100%;
+	border: 2px solid white;
+}
+
+div.socials {
+	display: flex;
+	flex-direction: row wrap;
+	justify-content: center;
+	padding: 1% 0;
+}
+div.socials ul { 
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+div.socials ul a {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+div.socials ul li {
+	width: 100%;
+	padding: 15px 0;
+	border-radius: 10px;
+	transition: 0.2s all;
+}
+div.socials ul li:hover {
+	background-color: #122334;
+	transform: translateY(-2px);
+}
+
+div.desc {
+	border-top: 1px dashed white;
+	padding-top: 5%;
+	max-width: 50vw;
 }
