@@ -1,0 +1,38 @@
+/*
+    Created on Sept 10th, 2023.
+    Author: Ícaro Freire (https://github.com/ivfreire)
+    São Paulo, BRAZIL
+*/
+
+div.header {
+    display: flex;
+    padding: 10% 0;
+    justify-content: center;
+}
+
+div.header div.picture img {
+    width: 300px;
+    border-radius: 100%;
+    border: 2px dashed black;
+}
+
+div.header div.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+div.header div.info h1 { font-size: 64px; }
+div.header div.info p { margin: 10px 0; }
+
+
+div.section#about div.panel { flex-flow: row; }
+div.section#about div.panel div.left { width: 30%; margin-right: 2%; border-right: 2px dashed black; }
+div.section#about div.panel div.right { width: 66%; margin-left: 2%; }
+div.section#about div.panel div.right img { border-radius: 15px; }
+div.section#about div.panel div.left ul { list-style-type: none; }
+
+div.section#about div.panel div.left ul li { padding: 3px 0; }
+div.section#about div.panel div.left ul i { width: 30px; }
+div.section#about div.panel div.left ul a { text-decoration: none; color: black; }
+div.section#about div.panel div.left ul a:hover { text-decoration: underline; }
