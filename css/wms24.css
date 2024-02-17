@@ -14,12 +14,14 @@ body {
 	background-color: var(--1st-color);
 }
 
+h2, h3, h4, h5, h6 {color: var(--1st-color);}
+
 div.poster {
 	width: 100vw;
 	color: #212121;
 }
 
-nav.navigation, footer {
+nav, footer {
 	text-align: center;
 	padding: 10% 0;
 	color: white;
@@ -45,3 +47,11 @@ div.section div.image div.subtitle {padding: 0 5%;}
 div.section div.image img {
 	width: 100%;
 }
+
+div.section div.logos {
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	padding: 0 5% 10% 5%;
+}
+div.section div.logos img {width: 70%;}

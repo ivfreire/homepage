@@ -1,0 +1,1 @@
+{"background_color":"#eeeeee","display":"fullscreen","icons":[{"sizes":"144x144","src":"cg_demo.144x144.png","type":"image/png"},{"sizes":"180x180","src":"cg_demo.180x180.png","type":"image/png"},{"sizes":"512x512","src":"cg_demo.512x512.png","type":"image/png"}],"name":"Computer Graphics Demo","orientation":"any","start_url":"./cg_demo.html"}
