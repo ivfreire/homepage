@@ -40,9 +40,7 @@ div.section div.text {
 div.section div.text:first-of-type {padding-top: 0;}
 div.section div.text:last-of-type {padding-bottom: 5%;}
 
-div.section div.image {
-	padding: 5% 0 0 0;
-}
+div.section div.image {padding: 5% 0 0 0;}
 div.section div.image div.subtitle {padding: 0 5%;}
 div.section div.image img {
 	width: 100%;
@@ -55,3 +53,7 @@ div.section div.logos {
 	padding: 0 5% 10% 5%;
 }
 div.section div.logos img {width: 70%;}
+
+div.section div.application {
+	padding: 5% 0;
+}
