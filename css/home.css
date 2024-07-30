@@ -1,0 +1,18 @@
+/* Created on 2024-07-29 by Ícaro Freire (https://github/ivfreire) */
+
+div.widget#intro > div {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+
+div.widget#intro > div > * {
+    margin: 4px 0;
+}
+div.widget#intro p {
+    font-size: 16px;
+    line-height: 24px;
+}

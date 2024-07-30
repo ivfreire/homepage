@@ -1,49 +1,66 @@
+/* Created on 2024-07-29 by Ícaro Freire (https://github/ivfreire) */
+
 :root {
-    --text-color: #ffffff;
-    --fg-color: #071b33;
-    --bg-color: #0b1b2e;
+	--color-1st: black;
+	--color-2nd: darkslateblue;
+	--color-3rd: white;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    color: var(--text-color);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: Consolas;
 }
 
 body {
-    background-color: var(--bg-color);
+	background-color: var(--color-1st);
 }
 
-div.wrapper {
-    width: 60%;
-    padding: 0 20%;
+p, a, span, h1, h2, h3, h4, h5, h6 {
+	color: var(--color-3rd);
 }
 
-nav.navigation {
-    width: 100%;
-    padding: 20px 0;
-    background-color: transparent;
-    border-bottom: 1px solid white;
+div.page {
+	width: 50%;
+	margin: 0 25%;
 }
 
-div.menubar ul {
-    list-style-type: none;
-    float: right;
+div.widgets {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-div.menubar ul li { display: inline; }
-
-div.menubar ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 0 10px;
+div.widgets > div {
+	width: 100%;
 }
 
-div.menubar ul li a:hover {
-    text-decoration: underline;
+div.widgets div#navbar {
+	display: flex;
+	justify-content: left;
+	background: transparent;
+	border-bottom: 1px dashed var(--color-3rd);
 }
 
-div.content {
-    width: 100%;
+div.widgets div#navbar ul {
+	display: flex;
+	list-style-type: none;
+	flex-direction: row;
+}
+
+div.widgets div#navbar ul li {
+	margin: 50px;
+}
+
+div.widgets div#footer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	background: transparent;
+	border-top: 1px dashed var(--color-3rd);
+}
+
+div.widgets div#footer p {
+	margin: 50px;
+	text-align: center;
 }
